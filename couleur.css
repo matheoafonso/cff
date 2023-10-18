@@ -1,0 +1,11 @@
+.bandeau {
+    color: rgb(255, 38, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+.bandeau p {
+    margin: 25;
+    font-size: 36px;
+    color: rgb(255, 0, 0);
+}
