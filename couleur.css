@@ -1,11 +1,13 @@
 .bandeau {
-    color: rgb(255, 38, 0);
-    padding: 20px;
-    text-align: center;
-}
-
-.bandeau p {
-    margin: 25;
-    font-size: 36px;
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+    background-color: rgb(121, 6, 4); 
+    padding: 75px; 
+  }
+p {
+    margin: 35px;
+    font-size: 55px;
     color: rgb(255, 0, 0);
+
 }
