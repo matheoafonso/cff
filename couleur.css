@@ -1,14 +1,52 @@
-.bandeau {
-    display: flex;
-    justify-content: center; 
-    align-items: flex-start; 
-    background-color: rgb(121, 6, 4); 
-    padding: 75px; 
-  }
-p {
-    margin: 35px;
-    font-size: 55px;
-    color: rgb(255, 0, 0);
 
+.menu {
+    height: 75px;
+    background-color: rgb(121,6,4); /* Couleur de fond du menu, à personnaliser */
+    color: rgb(255, 2, 2); /* Couleur du texte, à personnaliser */
+    text-align: center; /* Centre le contenu du menu horizontalement */
+    padding: 10px; /* Espacement interne du menu, à personnaliser */
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  
+.corps {
+    height: 375px;
+    background-color: rgb(108,172,219); /* Couleur de fond du corps, à personnaliser */
+    padding: 0px; /* Espacement interne du corps, à personnaliser */
+    font-size: 25px;
+  }
+
+  table {
+    border-collapse: collapse;
 }
+
+td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+}
+
+.small-cell {
+    height: 10px;
+    background-color: #f2f2f2;
+}
+
+.merged-cell {
+    background-color: #e0e0e0;
+}
+
+.sub-cell {
+    background-color: #d0d0d0;
+}
+
+
+.footer {
+    height: 100px;
+    background-color: rgb(117,96,56); /* Couleur de fond du pied de page, à personnaliser */
+    color: rgb(102,70,116); /* Couleur du texte, à personnaliser */
+    text-align: center; /* Centre le contenu du pied de page horizontalement */
+    padding: 10px; /* Espacement interne du pied de page, à personnaliser */
+  }
+  
   
